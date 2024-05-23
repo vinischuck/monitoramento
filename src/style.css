@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(1, 76, 173);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.tela{
+    display: flex;
+    width: 30%;
+    height:40vh;
+    background-color: black;
+    margin: 5px;
+}
+
+.add-button{
+    display: inline;
+    position: absolute;
+    font-size: 30px;
+    height:30px;
+    width: 30px;
+    color: #eee;
+    background-color: #2b2b2b77;
+    border:none;
+
+}
+
+.add-button:hover{
+    cursor: pointer;
+    color: rgb(0, 137, 250);
+}
+
+.add-menu{
+    display:none;
+    text-align: center;
+    position:absolute;
+    margin-left: 30px;
+    background-color: #2b2b2bd0;
+    height:3%;
+    width: 15%;
+}
+
+.add-menu input{
+
+    width: 100%;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    transition:  2.5s;
+}
